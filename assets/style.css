@@ -1,0 +1,37 @@
+body {
+	background-color: whitesmoke;
+}
+
+.navbar {
+	background-color: whitesmoke;
+}
+
+.menu {
+	color: black;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: darkgrey;
+	text-decoration: none;
+}
+
+#alert {
+	z-index: 9999;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
